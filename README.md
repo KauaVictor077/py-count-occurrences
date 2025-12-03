@@ -37,3 +37,5 @@ def count_occurrences(phrase: str, letter: str) -> int:
   
 - It is **recommended** to avoid using loops to solve this task. Instead, consider utilizing Python's built-in string functions to simplify the solution.
 
+def count_occurrences(source_list, value):
+    return source_list.count(value)
